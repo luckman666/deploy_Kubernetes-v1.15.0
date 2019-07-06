@@ -101,6 +101,5 @@ kube-system   kubernetes-dashboard   NodePort    10.101.25.47   <none>        44
 
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
 
-欢迎大家关注我个人的订阅号，会定期分享学习心得，相关案例信息!
-全都是大白话，保证你们能看明白！
+关注公众号回复：k8s   获得k8s各个版本的一键部署脚本
 ![index4](https://github.com/luckman666/devops_kkit/blob/master/gzh.jpg)
