@@ -45,9 +45,9 @@ setupkernel
 
 # 部署k8s集群具体实现步骤：
 
-git clone https://github.com/luckman666/deploy_Kubernetes-v1.14.1.git
+git clone https://github.com/luckman666/deploy_Kubernetes-v1.15.0.git
 
-cd deploy_Kubernetes-v1.14.1/
+cd deploy_Kubernetes-v1.15.0/
 
 chmod -R 755 .
 
@@ -64,7 +64,7 @@ masterip="192.168.1.107"
 
 K8S版本：
 
-k8s_version="v1.14.1"
+k8s_version="v1.15.0"
 
 服务器root密码
 
@@ -76,11 +76,11 @@ hostname=k8s
 
 集群服务器IP地址
 
-hostip='
+hostip=（
 192.168.1.107
 192.168.1.108
 192.168.1.109
-'
+）
 再部署的时候严格按照我所给的示例参数写哦。换参数不要换格式，以免出错
 
 # 部署完后进入到dashboard文件夹部署dashboard
