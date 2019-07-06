@@ -3,8 +3,8 @@
 # k8s 1.14.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.14.1
 # k8s 1.13.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.13.1
 
-一键部署k8s1.14.1集群
 
+优化了部分代码！
 
 觉得不错给个star哦！！
 注意事项：
