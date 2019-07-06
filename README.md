@@ -1,5 +1,5 @@
 # centos7 deploy_Kubernetes-v1.14.1
-# k8s 1.15.0一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.15.0
+
 # k8s 1.14.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.14.1
 # k8s 1.13.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.13.1
 
