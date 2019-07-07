@@ -20,27 +20,6 @@
 5、物理机不用说了，要是虚拟机cpu必须最少是2个哦！切记
 
 
-# 升级内核脚本  无需升级哦！
-
-执行upgradeKernel.sh就可以将内核升级到4+了，脚本内容如下：
-
-#!/bin/bash
-
-setupkernel(){
-
- rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
- 
- rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
- 
- yum --enablerepo=elrepo-kernel install -y kernel-lt kernel-lt-devel
- 
- grub2-set-default 0
- 
- reboot
- 
-}
-
-setupkernel
 
 # 部署k8s集群具体实现步骤：
 
