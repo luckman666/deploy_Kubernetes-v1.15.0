@@ -39,6 +39,7 @@ iptables_config(){
 #system config
 system_config(){
   sed -i "s/SELINUX=enforcing/SELINUX=disabled/g" /etc/selinux/config
+  setenforce 0
   timedatectl set-local-rtc 1 && timedatectl set-timezone Asia/Shanghai
   yum -y install chrony && systemctl start chronyd.service && systemctl enable chronyd.service
   systemctl restart chronyd.service
