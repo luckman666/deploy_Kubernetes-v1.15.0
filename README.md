@@ -26,9 +26,7 @@ k8s 1.13.1一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v
 
 git clone https://github.com/luckman666/deploy_Kubernetes-v1.15.0.git
 
-cd deploy_Kubernetes-v1.15.0/
-
-chmod -R 755 .
+cd deploy_Kubernetes-v1.15.0 && chmod -R 755 .
 
 编辑base.config里面的参数
 
